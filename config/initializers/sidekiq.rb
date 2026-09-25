@@ -1,9 +1,12 @@
-url = Rails.application.credentials.dig("redis", "url")
-password = Rails.application.credentials.dig("redis", "password")
+creds = Rails.application.credentials.redis 
+redis_config = {
+  url: creds[:url],
+  password: creds[:password]
+}
 Sidekiq.configure_server do | config | 
-  config.redis = { url: url, password: password }
+  config.redis = redis_config 
 end 
 
 Sidekiq.configure_client do | config |
-  config.redis = { url: url, password: password }
+  config.redis = redis_config 
 end 
