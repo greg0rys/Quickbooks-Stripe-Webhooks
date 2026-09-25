@@ -1,0 +1,787 @@
+{
+  "simplecov_history": {
+    "format_version": 1,
+    "entries": [
+      {
+        "created_at": "2026-09-25T19:38:56Z",
+        "branch": "config_webmock_vcr",
+        "commit": "6233bd9fcf92f8f1dac80b2ce6753006460c4b9b",
+        "totals": {
+          "line": 0.0
+        },
+        "groups": {
+          "Controllers": {
+            "line": 0.0
+          },
+          "Helpers": {
+            "line": 0.0
+          },
+          "Jobs": {
+            "line": 0.0
+          },
+          "Mailers": {
+            "line": 0.0
+          },
+          "Models": {
+            "line": 0.0
+          },
+          "Ungrouped": {
+            "line": 0.0
+          }
+        },
+        "files": {
+          "app/avo/resources/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/controllers/application_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_credentials_controller.rb": {
+            "line": 0.0
+          },
+          "app/helpers/application_helper.rb": {
+            "line": 0.0
+          },
+          "app/jobs/application_job.rb": {
+            "line": 0.0
+          },
+          "app/mailers/application_mailer.rb": {
+            "line": 0.0
+          },
+          "app/models/application_record.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/policies/application_policy.rb": {
+            "line": 0.0
+          }
+        }
+      },
+      {
+        "created_at": "2026-09-25T19:38:58Z",
+        "branch": "config_webmock_vcr",
+        "commit": "6233bd9fcf92f8f1dac80b2ce6753006460c4b9b",
+        "totals": {
+          "line": 0.0
+        },
+        "groups": {
+          "Controllers": {
+            "line": 0.0
+          },
+          "Helpers": {
+            "line": 0.0
+          },
+          "Jobs": {
+            "line": 0.0
+          },
+          "Mailers": {
+            "line": 0.0
+          },
+          "Models": {
+            "line": 0.0
+          },
+          "Ungrouped": {
+            "line": 0.0
+          }
+        },
+        "files": {
+          "app/avo/resources/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/controllers/application_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_credentials_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_mappings_controller.rb": {
+            "line": 0.0
+          },
+          "app/helpers/application_helper.rb": {
+            "line": 0.0
+          },
+          "app/jobs/application_job.rb": {
+            "line": 0.0
+          },
+          "app/mailers/application_mailer.rb": {
+            "line": 0.0
+          },
+          "app/models/application_record.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/policies/application_policy.rb": {
+            "line": 0.0
+          }
+        }
+      },
+      {
+        "created_at": "2026-09-25T19:39:02Z",
+        "branch": "config_webmock_vcr",
+        "commit": "6233bd9fcf92f8f1dac80b2ce6753006460c4b9b",
+        "totals": {
+          "line": 0.0
+        },
+        "groups": {
+          "Controllers": {
+            "line": 0.0
+          },
+          "Helpers": {
+            "line": 0.0
+          },
+          "Jobs": {
+            "line": 0.0
+          },
+          "Mailers": {
+            "line": 0.0
+          },
+          "Models": {
+            "line": 0.0
+          },
+          "Ungrouped": {
+            "line": 0.0
+          }
+        },
+        "files": {
+          "app/avo/resources/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/controllers/application_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_credentials_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_mappings_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/reconciliations_controller.rb": {
+            "line": 0.0
+          },
+          "app/helpers/application_helper.rb": {
+            "line": 0.0
+          },
+          "app/jobs/application_job.rb": {
+            "line": 0.0
+          },
+          "app/mailers/application_mailer.rb": {
+            "line": 0.0
+          },
+          "app/models/application_record.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/models/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/policies/application_policy.rb": {
+            "line": 0.0
+          }
+        }
+      },
+      {
+        "created_at": "2026-09-25T19:39:04Z",
+        "branch": "config_webmock_vcr",
+        "commit": "6233bd9fcf92f8f1dac80b2ce6753006460c4b9b",
+        "totals": {
+          "line": 0.0
+        },
+        "groups": {
+          "Controllers": {
+            "line": 0.0
+          },
+          "Helpers": {
+            "line": 0.0
+          },
+          "Jobs": {
+            "line": 0.0
+          },
+          "Mailers": {
+            "line": 0.0
+          },
+          "Models": {
+            "line": 0.0
+          },
+          "Ungrouped": {
+            "line": 0.0
+          }
+        },
+        "files": {
+          "app/avo/resources/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/reconciliation_item.rb": {
+            "line": 0.0
+          },
+          "app/controllers/application_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_credentials_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_mappings_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/reconciliation_items_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/reconciliations_controller.rb": {
+            "line": 0.0
+          },
+          "app/helpers/application_helper.rb": {
+            "line": 0.0
+          },
+          "app/jobs/application_job.rb": {
+            "line": 0.0
+          },
+          "app/mailers/application_mailer.rb": {
+            "line": 0.0
+          },
+          "app/models/application_record.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/models/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/models/reconciliation_item.rb": {
+            "line": 0.0
+          },
+          "app/policies/application_policy.rb": {
+            "line": 0.0
+          }
+        }
+      },
+      {
+        "created_at": "2026-09-25T19:39:06Z",
+        "branch": "config_webmock_vcr",
+        "commit": "6233bd9fcf92f8f1dac80b2ce6753006460c4b9b",
+        "totals": {
+          "line": 0.0
+        },
+        "groups": {
+          "Controllers": {
+            "line": 0.0
+          },
+          "Helpers": {
+            "line": 0.0
+          },
+          "Jobs": {
+            "line": 0.0
+          },
+          "Mailers": {
+            "line": 0.0
+          },
+          "Models": {
+            "line": 0.0
+          },
+          "Ungrouped": {
+            "line": 0.0
+          }
+        },
+        "files": {
+          "app/avo/resources/customer_mapping.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/reconciliation_item.rb": {
+            "line": 0.0
+          },
+          "app/controllers/application_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/customer_mappings_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_credentials_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_mappings_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/reconciliation_items_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/reconciliations_controller.rb": {
+            "line": 0.0
+          },
+          "app/helpers/application_helper.rb": {
+            "line": 0.0
+          },
+          "app/jobs/application_job.rb": {
+            "line": 0.0
+          },
+          "app/mailers/application_mailer.rb": {
+            "line": 0.0
+          },
+          "app/models/application_record.rb": {
+            "line": 0.0
+          },
+          "app/models/customer_mapping.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/models/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/models/reconciliation_item.rb": {
+            "line": 0.0
+          },
+          "app/policies/application_policy.rb": {
+            "line": 0.0
+          }
+        }
+      },
+      {
+        "created_at": "2026-09-25T19:42:16Z",
+        "branch": "config_webmock_vcr",
+        "commit": "6233bd9fcf92f8f1dac80b2ce6753006460c4b9b",
+        "totals": {
+          "line": 0.0
+        },
+        "groups": {
+          "Controllers": {
+            "line": 0.0
+          },
+          "Helpers": {
+            "line": 0.0
+          },
+          "Jobs": {
+            "line": 0.0
+          },
+          "Mailers": {
+            "line": 0.0
+          },
+          "Models": {
+            "line": 0.0
+          },
+          "Ungrouped": {
+            "line": 0.0
+          }
+        },
+        "files": {
+          "app/avo/resources/customer_mapping.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/reconciliation_item.rb": {
+            "line": 0.0
+          },
+          "app/controllers/application_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/customer_mappings_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_mappings_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/reconciliation_items_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/reconciliations_controller.rb": {
+            "line": 0.0
+          },
+          "app/helpers/application_helper.rb": {
+            "line": 0.0
+          },
+          "app/jobs/application_job.rb": {
+            "line": 0.0
+          },
+          "app/mailers/application_mailer.rb": {
+            "line": 0.0
+          },
+          "app/models/application_record.rb": {
+            "line": 0.0
+          },
+          "app/models/customer_mapping.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/models/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/models/reconciliation_item.rb": {
+            "line": 0.0
+          },
+          "app/policies/application_policy.rb": {
+            "line": 0.0
+          }
+        }
+      },
+      {
+        "created_at": "2026-09-25T19:42:18Z",
+        "branch": "config_webmock_vcr",
+        "commit": "6233bd9fcf92f8f1dac80b2ce6753006460c4b9b",
+        "totals": {
+          "line": 0.0
+        },
+        "groups": {
+          "Controllers": {
+            "line": 0.0
+          },
+          "Helpers": {
+            "line": 0.0
+          },
+          "Jobs": {
+            "line": 0.0
+          },
+          "Mailers": {
+            "line": 0.0
+          },
+          "Models": {
+            "line": 0.0
+          },
+          "Ungrouped": {
+            "line": 0.0
+          }
+        },
+        "files": {
+          "app/avo/resources/customer_mapping.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/reconciliation_item.rb": {
+            "line": 0.0
+          },
+          "app/controllers/application_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/customer_mappings_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/reconciliation_items_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/reconciliations_controller.rb": {
+            "line": 0.0
+          },
+          "app/helpers/application_helper.rb": {
+            "line": 0.0
+          },
+          "app/jobs/application_job.rb": {
+            "line": 0.0
+          },
+          "app/mailers/application_mailer.rb": {
+            "line": 0.0
+          },
+          "app/models/application_record.rb": {
+            "line": 0.0
+          },
+          "app/models/customer_mapping.rb": {
+            "line": 0.0
+          },
+          "app/models/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/models/reconciliation_item.rb": {
+            "line": 0.0
+          },
+          "app/policies/application_policy.rb": {
+            "line": 0.0
+          }
+        }
+      },
+      {
+        "created_at": "2026-09-25T19:42:20Z",
+        "branch": "config_webmock_vcr",
+        "commit": "6233bd9fcf92f8f1dac80b2ce6753006460c4b9b",
+        "totals": {
+          "line": 0.0
+        },
+        "groups": {
+          "Controllers": {
+            "line": 0.0
+          },
+          "Helpers": {
+            "line": 0.0
+          },
+          "Jobs": {
+            "line": 0.0
+          },
+          "Mailers": {
+            "line": 0.0
+          },
+          "Models": {
+            "line": 0.0
+          },
+          "Ungrouped": {
+            "line": 0.0
+          }
+        },
+        "files": {
+          "app/avo/resources/customer_mapping.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/reconciliation_item.rb": {
+            "line": 0.0
+          },
+          "app/controllers/application_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/customer_mappings_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/reconciliation_items_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/reconciliations_controller.rb": {
+            "line": 0.0
+          },
+          "app/helpers/application_helper.rb": {
+            "line": 0.0
+          },
+          "app/jobs/application_job.rb": {
+            "line": 0.0
+          },
+          "app/mailers/application_mailer.rb": {
+            "line": 0.0
+          },
+          "app/models/application_record.rb": {
+            "line": 0.0
+          },
+          "app/models/customer_mapping.rb": {
+            "line": 0.0
+          },
+          "app/models/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/models/reconciliation_item.rb": {
+            "line": 0.0
+          },
+          "app/policies/application_policy.rb": {
+            "line": 0.0
+          }
+        }
+      },
+      {
+        "created_at": "2026-09-25T19:42:22Z",
+        "branch": "config_webmock_vcr",
+        "commit": "6233bd9fcf92f8f1dac80b2ce6753006460c4b9b",
+        "totals": {
+          "line": 0.0
+        },
+        "groups": {
+          "Controllers": {
+            "line": 0.0
+          },
+          "Helpers": {
+            "line": 0.0
+          },
+          "Jobs": {
+            "line": 0.0
+          },
+          "Mailers": {
+            "line": 0.0
+          },
+          "Models": {
+            "line": 0.0
+          },
+          "Ungrouped": {
+            "line": 0.0
+          }
+        },
+        "files": {
+          "app/avo/resources/customer_mapping.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/reconciliation_item.rb": {
+            "line": 0.0
+          },
+          "app/controllers/application_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/customer_mappings_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/reconciliation_items_controller.rb": {
+            "line": 0.0
+          },
+          "app/helpers/application_helper.rb": {
+            "line": 0.0
+          },
+          "app/jobs/application_job.rb": {
+            "line": 0.0
+          },
+          "app/mailers/application_mailer.rb": {
+            "line": 0.0
+          },
+          "app/models/application_record.rb": {
+            "line": 0.0
+          },
+          "app/models/customer_mapping.rb": {
+            "line": 0.0
+          },
+          "app/models/reconciliation_item.rb": {
+            "line": 0.0
+          },
+          "app/policies/application_policy.rb": {
+            "line": 0.0
+          }
+        }
+      },
+      {
+        "created_at": "2026-09-25T19:42:24Z",
+        "branch": "config_webmock_vcr",
+        "commit": "6233bd9fcf92f8f1dac80b2ce6753006460c4b9b",
+        "totals": {
+          "line": 0.0
+        },
+        "groups": {
+          "Controllers": {
+            "line": 0.0
+          },
+          "Helpers": {
+            "line": 0.0
+          },
+          "Jobs": {
+            "line": 0.0
+          },
+          "Mailers": {
+            "line": 0.0
+          },
+          "Models": {
+            "line": 0.0
+          },
+          "Ungrouped": {
+            "line": 0.0
+          }
+        },
+        "files": {
+          "app/avo/resources/customer_mapping.rb": {
+            "line": 0.0
+          },
+          "app/controllers/application_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/customer_mappings_controller.rb": {
+            "line": 0.0
+          },
+          "app/helpers/application_helper.rb": {
+            "line": 0.0
+          },
+          "app/jobs/application_job.rb": {
+            "line": 0.0
+          },
+          "app/mailers/application_mailer.rb": {
+            "line": 0.0
+          },
+          "app/models/application_record.rb": {
+            "line": 0.0
+          },
+          "app/models/customer_mapping.rb": {
+            "line": 0.0
+          },
+          "app/policies/application_policy.rb": {
+            "line": 0.0
+          }
+        }
+      },
+      {
+        "created_at": "2026-09-25T19:42:26Z",
+        "branch": "config_webmock_vcr",
+        "commit": "6233bd9fcf92f8f1dac80b2ce6753006460c4b9b",
+        "totals": {
+          "line": 0.0
+        },
+        "groups": {
+          "Controllers": {
+            "line": 0.0
+          },
+          "Helpers": {
+            "line": 0.0
+          },
+          "Jobs": {
+            "line": 0.0
+          },
+          "Mailers": {
+            "line": 0.0
+          },
+          "Models": {
+            "line": 0.0
+          },
+          "Ungrouped": {
+            "line": 0.0
+          }
+        },
+        "files": {
+          "app/controllers/application_controller.rb": {
+            "line": 0.0
+          },
+          "app/helpers/application_helper.rb": {
+            "line": 0.0
+          },
+          "app/jobs/application_job.rb": {
+            "line": 0.0
+          },
+          "app/mailers/application_mailer.rb": {
+            "line": 0.0
+          },
+          "app/models/application_record.rb": {
+            "line": 0.0
+          },
+          "app/policies/application_policy.rb": {
+            "line": 0.0
+          }
+        }
+      }
+    ]
+  }
+}
