@@ -1,0 +1,2 @@
+module Qbo::OauthHelper
+end
