@@ -11,18 +11,13 @@ Avo.configure do |config|
   config.app_name = "QuickBooks & Stripe API"
   config.timezone = 'UTC'
 
-  # wire in user auth 
-  config.current_user_method do 
-    Current.user 
-  end
-
   # auth signout 
-  config.sign_out_path_name = :session_path
+  # config.sign_out_path_name = :session_path
 
   # auth with pundit 
 
-  ## == Licensing ==
-  # config.license_key = ENV['AVO_LICENSE_KEY']
+
+  config.license_key = "f84f6a"
 
   ## == Set the context ==
   config.set_context do

@@ -1,0 +1,98 @@
+---
+openapi: 3.0.1
+info:
+  title: Stripe to QuickBooks Reconciliation API
+  version: v1
+  description: Webhook processing and synchronization endpoints for Stripe & QuickBooks
+    Online.
+paths:
+  "/qbo/connect":
+    get:
+      summary: Initiates Intuit OAuth 2.0 handshake
+      tags:
+      - OAuth
+      responses:
+        '302':
+          description: redirects user to Intuit authorization page
+  "/qbo/callback":
+    get:
+      summary: Handles Intuit OAuth 2.0 callback
+      tags:
+      - OAuth
+      parameters:
+      - name: code
+        in: query
+        required: true
+        description: Intuit authorization code
+        schema:
+          type: string
+      - name: state
+        in: query
+        required: true
+        description: CSRF security token
+        schema:
+          type: string
+      - name: realmId
+        in: query
+        required: true
+        description: QBO Company Realm ID
+        schema:
+          type: string
+      responses:
+        '302':
+          description: tokens exchanged and saved, redirects to admin
+  "/webhooks/qbo":
+    post:
+      summary: Receives incoming QuickBooks Online webhook notifications
+      tags:
+      - Webhooks
+      parameters:
+      - name: intuit-signature
+        in: header
+        required: true
+        description: Base64 encoded HMAC SHA256 signature
+        schema:
+          type: string
+      responses:
+        '200':
+          description: webhook processed and enqueued
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                eventNotifications:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      realmId:
+                        type: string
+                      dataChangeEvent:
+                        type: object
+                        properties:
+                          dataChangeEventDetail:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                id:
+                                  type: string
+                                  example: '142'
+                                name:
+                                  type: string
+                                  example: Invoice
+                                operation:
+                                  type: string
+                                  example: Create
+                                lastUpdated:
+                                  type: string
+                                  example: '2026-09-25T12:00:00Z'
+servers:
+- url: https://qbo.shenefelt.org
+  description: Production Server
+- url: https://api.qbo.shenefelt.org
+  description: Production API Subdomain (if applicable)
+- url: http://localhost:3000
+  description: Local Development Server

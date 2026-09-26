@@ -12,5 +12,10 @@ class Avo::Resources::QboMapping < Avo::BaseResource
   def fields
     field :id, as: :id
     # field :avatar, as: :avatar
+    field :qbo_credential, as: :belongs_to
+    field :clearing_account_id, as: :text
+    field :checking_account_id, as: :text
+    field :fee_account_id, as: :text
+    field :sales_account_id, as: :text
   end
 end

@@ -1,0 +1,2 @@
+class QboCredential < ApplicationRecord
+end
