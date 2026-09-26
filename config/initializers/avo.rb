@@ -7,12 +7,19 @@ Avo.configure do |config|
   # config.prefix_path = "/internal"
 
   # Where should the user be redirected when visiting the `/avo` url
-  config.home_path = '/admin/resources/sync_logs'
+  # config.home_path = '/admin/resources/sync_logs'
   config.app_name = "QuickBooks & Stripe API"
   config.timezone = 'UTC'
 
+  # wire in user auth 
+  config.current_user_method do 
+    Current.user 
+  end
+
+  # auth signout 
+  config.sign_out_path_name = :session_path
+
   # auth with pundit 
-  config.authorization_adapter = Avo::Services::PunditAdapter 
 
   ## == Licensing ==
   # config.license_key = ENV['AVO_LICENSE_KEY']
