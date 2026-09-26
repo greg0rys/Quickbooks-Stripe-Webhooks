@@ -151,6 +151,11 @@ GEM
     erubi (1.13.1)
     et-orbi (1.4.2)
       tzinfo
+    factory_bot (6.6.0)
+      activesupport (>= 6.1.0)
+    factory_bot_rails (6.5.1)
+      factory_bot (~> 6.5)
+      railties (>= 6.1.0)
     faraday (2.14.4)
       faraday-net_http (>= 2.0, < 3.5)
       json
@@ -584,6 +589,7 @@ DEPENDENCIES
   capybara
   chartkick (~> 5.2)
   debug
+  factory_bot_rails (~> 6.5)
   groupdate (~> 6.8)
   httparty (~> 0.24.2)
   image_processing (~> 1.2)
@@ -674,6 +680,8 @@ CHECKSUMS
   erb (6.0.7) sha256=c5ca6dc25b0ef974a44dc8f59fe847577122483b1968a38dec305c60bf91ee92
   erubi (1.13.1) sha256=a082103b0885dbc5ecf1172fede897f9ebdb745a4b97a5e8dc63953db1ee4ad9
   et-orbi (1.4.2) sha256=bb555dae668419cb24caa2a293a170e58be6d4df1e017c51f5030bdc133cd20c
+  factory_bot (6.6.0) sha256=1fc1b3b5620ec980a6a27aec1b6ec8c250ca82962e970e8a40f93e8d388d4b89
+  factory_bot_rails (6.5.1) sha256=d3cc4851eae4dea8a665ec4a4516895045e710554d2b5ac9e68b94d351bc6d68
   faraday (2.14.4) sha256=9bb4408c44621b0dbaaaa39e5dbfc4dbe58cc6751b6eb94d16ae9e1f2f2fab6e
   faraday-gzip (3.1.0) sha256=320783690be169f9b7ddde11598b77156951343753f66a9ab98b1f6694433ff8
   faraday-multipart (1.2.0) sha256=7d89a949693714176f612323ca13746a2ded204031a6ba528adee788694ef757

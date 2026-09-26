@@ -1054,6 +1054,195 @@
             "line": 0.0
           }
         }
+      },
+      {
+        "created_at": "2026-09-26T02:33:04Z",
+        "branch": "feature/db-schema",
+        "commit": "47e4053112ee9e066a581d7aba16b82f85600b9f",
+        "totals": {
+          "line": 0.0
+        },
+        "groups": {
+          "Controllers": {
+            "line": 0.0
+          },
+          "Helpers": {
+            "line": 0.0
+          },
+          "Jobs": {
+            "line": 0.0
+          },
+          "Mailers": {
+            "line": 0.0
+          },
+          "Models": {
+            "line": 0.0
+          },
+          "Ungrouped": {
+            "line": 0.0
+          }
+        },
+        "files": {
+          "app/avo/resources/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/sync_log.rb": {
+            "line": 0.0
+          },
+          "app/controllers/application_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_credentials_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_mappings_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/sync_logs_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/qbo/oauth_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/webhooks/qbo_controller.rb": {
+            "line": 0.0
+          },
+          "app/helpers/application_helper.rb": {
+            "line": 0.0
+          },
+          "app/helpers/qbo/oauth_helper.rb": {
+            "line": 0.0
+          },
+          "app/helpers/webhooks/qbo_helper.rb": {
+            "line": 0.0
+          },
+          "app/jobs/application_job.rb": {
+            "line": 0.0
+          },
+          "app/mailers/application_mailer.rb": {
+            "line": 0.0
+          },
+          "app/models/application_record.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/models/sync_log.rb": {
+            "line": 0.0
+          },
+          "app/policies/application_policy.rb": {
+            "line": 0.0
+          },
+          "app/services/qbo/authentication_service.rb": {
+            "line": 0.0
+          }
+        }
+      },
+      {
+        "created_at": "2026-09-26T02:33:12Z",
+        "branch": "feature/db-schema",
+        "commit": "47e4053112ee9e066a581d7aba16b82f85600b9f",
+        "totals": {
+          "line": 0.0
+        },
+        "groups": {
+          "Controllers": {
+            "line": 0.0
+          },
+          "Helpers": {
+            "line": 0.0
+          },
+          "Jobs": {
+            "line": 0.0
+          },
+          "Mailers": {
+            "line": 0.0
+          },
+          "Models": {
+            "line": 0.0
+          },
+          "Ungrouped": {
+            "line": 0.0
+          }
+        },
+        "files": {
+          "app/avo/resources/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/avo/resources/sync_log.rb": {
+            "line": 0.0
+          },
+          "app/controllers/application_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_credentials_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/qbo_mappings_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/reconciliations_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/avo/sync_logs_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/qbo/oauth_controller.rb": {
+            "line": 0.0
+          },
+          "app/controllers/webhooks/qbo_controller.rb": {
+            "line": 0.0
+          },
+          "app/helpers/application_helper.rb": {
+            "line": 0.0
+          },
+          "app/helpers/qbo/oauth_helper.rb": {
+            "line": 0.0
+          },
+          "app/helpers/webhooks/qbo_helper.rb": {
+            "line": 0.0
+          },
+          "app/jobs/application_job.rb": {
+            "line": 0.0
+          },
+          "app/mailers/application_mailer.rb": {
+            "line": 0.0
+          },
+          "app/models/application_record.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_credential.rb": {
+            "line": 0.0
+          },
+          "app/models/qbo_mapping.rb": {
+            "line": 0.0
+          },
+          "app/models/reconciliation.rb": {
+            "line": 0.0
+          },
+          "app/models/sync_log.rb": {
+            "line": 0.0
+          },
+          "app/policies/application_policy.rb": {
+            "line": 0.0
+          },
+          "app/services/qbo/authentication_service.rb": {
+            "line": 0.0
+          }
+        }
       }
     ]
   }

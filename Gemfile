@@ -96,3 +96,5 @@ gem "vcr", "~> 6.4"
 
 gem "quickbooks-ruby", "~> 2.0"
 gem "rack-cors", "~> 3.0"
+
+gem "factory_bot_rails", "~> 6.5"
