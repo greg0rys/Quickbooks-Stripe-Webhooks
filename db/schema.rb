@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_09_26_014001) do
+ActiveRecord::Schema[8.1].define(version: 2026_09_26_023311) do
   create_table "qbo_credentials", force: :cascade do |t|
     t.string "realm_id"
     t.text "access_token"
@@ -32,6 +32,40 @@ ActiveRecord::Schema[8.1].define(version: 2026_09_26_014001) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["qbo_credential_id"], name: "index_qbo_mappings_on_qbo_credential_id"
+  end
+
+  create_table "reconciliations", force: :cascade do |t|
+    t.string "stripe_payout_id"
+    t.integer "gross_cents"
+    t.integer "fee_cents"
+    t.integer "net_cents"
+    t.string "currency"
+    t.string "qbo_deposit_id"
+    t.string "qbo_expense_id"
+    t.integer "status"
+    t.datetime "payout_date"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["payout_date"], name: "index_reconciliations_on_payout_date"
+    t.index ["status"], name: "index_reconciliations_on_status"
+    t.index ["stripe_payout_id"], name: "index_reconciliations_on_stripe_payout_id", unique: true
+  end
+
+  create_table "sync_logs", force: :cascade do |t|
+    t.string "stripe_event_id"
+    t.string "event_type"
+    t.integer "status"
+    t.string "qbo_entity_type"
+    t.string "qbo_entity_id"
+    t.json "payload"
+    t.text "error_message"
+    t.integer "attempts"
+    t.integer "duration_ms"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["event_type"], name: "index_sync_logs_on_event_type"
+    t.index ["status"], name: "index_sync_logs_on_status"
+    t.index ["stripe_event_id"], name: "index_sync_logs_on_stripe_event_id", unique: true
   end
 
   add_foreign_key "qbo_mappings", "qbo_credentials"

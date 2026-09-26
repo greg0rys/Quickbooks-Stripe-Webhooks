@@ -8,9 +8,9 @@
       "RSpec"
     ],
     "project_name": "Quickbooks",
-    "timestamp": "2026-09-26T02:21:48.118+00:00",
+    "timestamp": "2026-09-26T02:33:12.148+00:00",
     "root": "/srv/Quickbooks",
-    "commit": "1064b5edf3856041961d63183cd068314d7756a6",
+    "commit": "47e4053112ee9e066a581d7aba16b82f85600b9f",
     "primary_coverage": "line",
     "line_coverage": true,
     "branch_coverage": false,
@@ -18,12 +18,12 @@
   },
   "total": {
     "lines": {
-      "covered": 21,
-      "missed": 52,
-      "omitted": 98,
-      "total": 73,
-      "percent": 28.767123287671232,
-      "strength": 0.2876712328767123
+      "covered": 0,
+      "missed": 101,
+      "omitted": 132,
+      "total": 101,
+      "percent": 0.0,
+      "strength": 0.0
     }
   },
   "coverage": {
@@ -53,7 +53,7 @@
         "end"
       ],
       "lines": [
-        1,
+        0,
         null,
         null,
         null,
@@ -64,7 +64,7 @@
         null,
         null,
         null,
-        1,
+        0,
         0,
         null,
         0,
@@ -76,9 +76,9 @@
         null,
         null
       ],
-      "lines_covered_percent": 22.22222222222222,
-      "covered_lines": 2,
-      "missed_lines": 7,
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 9,
       "omitted_lines": 13,
       "total_lines": 9
     },
@@ -107,7 +107,7 @@
         "end"
       ],
       "lines": [
-        1,
+        0,
         null,
         null,
         null,
@@ -118,7 +118,7 @@
         null,
         null,
         null,
-        1,
+        0,
         0,
         null,
         0,
@@ -129,11 +129,133 @@
         null,
         null
       ],
-      "lines_covered_percent": 25.0,
-      "covered_lines": 2,
-      "missed_lines": 6,
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 8,
       "omitted_lines": 13,
       "total_lines": 8
+    },
+    "app/avo/resources/reconciliation.rb": {
+      "source": [
+        "class Avo::Resources::Reconciliation < Avo::BaseResource",
+        "  # self.icon = \"tabler/outline/users\"",
+        "  # self.avatar = {",
+        "  #   source: :avatar",
+        "  # }",
+        "  # self.includes = []",
+        "  # self.attachments = []",
+        "  # self.search = {",
+        "  #   query: -> { query.ransack(id_eq: q, m: \"or\").result(distinct: false) }",
+        "  # }",
+        "",
+        "  def fields",
+        "    field :id, as: :id",
+        "    # field :avatar, as: :avatar",
+        "    field :stripe_payout_id, as: :text",
+        "    field :gross_cents, as: :number",
+        "    field :fee_cents, as: :number",
+        "    field :net_cents, as: :number",
+        "    field :currency, as: :text",
+        "    field :qbo_deposit_id, as: :text",
+        "    field :qbo_expense_id, as: :text",
+        "    field :status, as: :number",
+        "    field :payout_date, as: :date_time",
+        "  end",
+        "end"
+      ],
+      "lines": [
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null
+      ],
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 12,
+      "omitted_lines": 13,
+      "total_lines": 12
+    },
+    "app/avo/resources/sync_log.rb": {
+      "source": [
+        "class Avo::Resources::SyncLog < Avo::BaseResource",
+        "  # self.icon = \"tabler/outline/users\"",
+        "  # self.avatar = {",
+        "  #   source: :avatar",
+        "  # }",
+        "  # self.includes = []",
+        "  # self.attachments = []",
+        "  # self.search = {",
+        "  #   query: -> { query.ransack(id_eq: q, m: \"or\").result(distinct: false) }",
+        "  # }",
+        "",
+        "  def fields",
+        "    field :id, as: :id",
+        "    # field :avatar, as: :avatar",
+        "    field :stripe_event_id, as: :text",
+        "    field :event_type, as: :text",
+        "    field :status, as: :number",
+        "    field :qbo_entity_type, as: :text",
+        "    field :qbo_entity_id, as: :text",
+        "    field :payload, as: :code",
+        "    field :error_message, as: :textarea",
+        "    field :attempts, as: :number",
+        "    field :duration_ms, as: :number",
+        "  end",
+        "end"
+      ],
+      "lines": [
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null
+      ],
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 12,
+      "omitted_lines": 13,
+      "total_lines": 12
     },
     "app/controllers/application_controller.rb": {
       "source": [
@@ -146,17 +268,17 @@
         "end"
       ],
       "lines": [
-        1,
+        0,
         null,
-        1,
+        0,
         null,
         null,
-        1,
+        0,
         null
       ],
-      "lines_covered_percent": 100.0,
-      "covered_lines": 3,
-      "missed_lines": 0,
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 3,
       "omitted_lines": 4,
       "total_lines": 3
     },
@@ -198,6 +320,44 @@
       "omitted_lines": 3,
       "total_lines": 1
     },
+    "app/controllers/avo/reconciliations_controller.rb": {
+      "source": [
+        "# This controller has been generated to enable Rails' resource routes.",
+        "# More information on https://docs.avohq.io/4.0/controllers.html",
+        "class Avo::ReconciliationsController < Avo::ResourcesController",
+        "end"
+      ],
+      "lines": [
+        null,
+        null,
+        0,
+        null
+      ],
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 1,
+      "omitted_lines": 3,
+      "total_lines": 1
+    },
+    "app/controllers/avo/sync_logs_controller.rb": {
+      "source": [
+        "# This controller has been generated to enable Rails' resource routes.",
+        "# More information on https://docs.avohq.io/4.0/controllers.html",
+        "class Avo::SyncLogsController < Avo::ResourcesController",
+        "end"
+      ],
+      "lines": [
+        null,
+        null,
+        0,
+        null
+      ],
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 1,
+      "omitted_lines": 3,
+      "total_lines": 1
+    },
     "app/controllers/qbo/oauth_controller.rb": {
       "source": [
         "class Qbo::OauthController < ApplicationController",
@@ -209,17 +369,17 @@
         "end"
       ],
       "lines": [
-        1,
-        1,
+        0,
+        0,
         null,
         null,
-        1,
+        0,
         null,
         null
       ],
-      "lines_covered_percent": 100.0,
-      "covered_lines": 3,
-      "missed_lines": 0,
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 3,
       "omitted_lines": 4,
       "total_lines": 3
     },
@@ -248,12 +408,12 @@
         "end"
       ],
       "lines": [
-        1,
+        0,
         null
       ],
-      "lines_covered_percent": 100.0,
-      "covered_lines": 1,
-      "missed_lines": 0,
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 1,
       "omitted_lines": 1,
       "total_lines": 1
     },
@@ -263,12 +423,12 @@
         "end"
       ],
       "lines": [
-        1,
+        0,
         null
       ],
-      "lines_covered_percent": 100.0,
-      "covered_lines": 1,
-      "missed_lines": 0,
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 1,
       "omitted_lines": 1,
       "total_lines": 1
     },
@@ -278,12 +438,12 @@
         "end"
       ],
       "lines": [
-        1,
+        0,
         null
       ],
-      "lines_covered_percent": 100.0,
-      "covered_lines": 1,
-      "missed_lines": 0,
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 1,
       "omitted_lines": 1,
       "total_lines": 1
     },
@@ -338,13 +498,13 @@
         "end"
       ],
       "lines": [
-        1,
-        1,
+        0,
+        0,
         null
       ],
-      "lines_covered_percent": 100.0,
-      "covered_lines": 2,
-      "missed_lines": 0,
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 2,
       "omitted_lines": 1,
       "total_lines": 2
     },
@@ -354,12 +514,12 @@
         "end"
       ],
       "lines": [
-        1,
+        0,
         null
       ],
-      "lines_covered_percent": 100.0,
-      "covered_lines": 1,
-      "missed_lines": 0,
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 1,
       "omitted_lines": 1,
       "total_lines": 1
     },
@@ -379,6 +539,36 @@
       "missed_lines": 2,
       "omitted_lines": 1,
       "total_lines": 2
+    },
+    "app/models/reconciliation.rb": {
+      "source": [
+        "class Reconciliation < ApplicationRecord",
+        "end"
+      ],
+      "lines": [
+        0,
+        null
+      ],
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 1,
+      "omitted_lines": 1,
+      "total_lines": 1
+    },
+    "app/models/sync_log.rb": {
+      "source": [
+        "class SyncLog < ApplicationRecord",
+        "end"
+      ],
+      "lines": [
+        0,
+        null
+      ],
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 1,
+      "omitted_lines": 1,
+      "total_lines": 1
     },
     "app/policies/application_policy.rb": {
       "source": [
@@ -525,10 +715,10 @@
         "end"
       ],
       "lines": [
-        1,
-        1,
-        1,
-        1,
+        0,
+        0,
+        0,
+        0,
         0,
         null,
         null,
@@ -537,7 +727,7 @@
         null,
         null,
         null,
-        1,
+        0,
         0,
         null,
         null,
@@ -550,9 +740,9 @@
         null,
         null
       ],
-      "lines_covered_percent": 71.42857142857143,
-      "covered_lines": 5,
-      "missed_lines": 2,
+      "lines_covered_percent": 0.0,
+      "covered_lines": 0,
+      "missed_lines": 7,
       "omitted_lines": 17,
       "total_lines": 7
     }
@@ -560,29 +750,31 @@
   "groups": {
     "Controllers": {
       "lines": {
-        "covered": 6,
-        "missed": 4,
-        "omitted": 16,
-        "total": 10,
-        "percent": 60.0,
-        "strength": 0.6
+        "covered": 0,
+        "missed": 12,
+        "omitted": 22,
+        "total": 12,
+        "percent": 0.0,
+        "strength": 0.0
       },
       "files": [
         "app/controllers/application_controller.rb",
         "app/controllers/avo/qbo_credentials_controller.rb",
         "app/controllers/avo/qbo_mappings_controller.rb",
+        "app/controllers/avo/reconciliations_controller.rb",
+        "app/controllers/avo/sync_logs_controller.rb",
         "app/controllers/qbo/oauth_controller.rb",
         "app/controllers/webhooks/qbo_controller.rb"
       ]
     },
     "Helpers": {
       "lines": {
-        "covered": 3,
-        "missed": 0,
+        "covered": 0,
+        "missed": 3,
         "omitted": 3,
         "total": 3,
-        "percent": 100.0,
-        "strength": 1.0
+        "percent": 0.0,
+        "strength": 0.0
       },
       "files": [
         "app/helpers/application_helper.rb",
@@ -618,31 +810,35 @@
     },
     "Models": {
       "lines": {
-        "covered": 3,
-        "missed": 2,
-        "omitted": 3,
-        "total": 5,
-        "percent": 60.0,
-        "strength": 0.6
+        "covered": 0,
+        "missed": 7,
+        "omitted": 5,
+        "total": 7,
+        "percent": 0.0,
+        "strength": 0.0
       },
       "files": [
         "app/models/application_record.rb",
         "app/models/qbo_credential.rb",
-        "app/models/qbo_mapping.rb"
+        "app/models/qbo_mapping.rb",
+        "app/models/reconciliation.rb",
+        "app/models/sync_log.rb"
       ]
     },
     "Ungrouped": {
       "lines": {
-        "covered": 9,
-        "missed": 42,
-        "omitted": 69,
-        "total": 51,
-        "percent": 17.647058823529413,
-        "strength": 0.17647058823529413
+        "covered": 0,
+        "missed": 75,
+        "omitted": 95,
+        "total": 75,
+        "percent": 0.0,
+        "strength": 0.0
       },
       "files": [
         "app/avo/resources/qbo_credential.rb",
         "app/avo/resources/qbo_mapping.rb",
+        "app/avo/resources/reconciliation.rb",
+        "app/avo/resources/sync_log.rb",
         "app/policies/application_policy.rb",
         "app/services/qbo/authentication_service.rb"
       ]
@@ -1704,18 +1900,18 @@
       }
     },
     {
-      "created_at": "2026-09-26T02:21:48Z",
-      "branch": "trunk",
-      "commit": "1064b5edf3856041961d63183cd068314d7756a6",
+      "created_at": "2026-09-26T02:33:04Z",
+      "branch": "feature/db-schema",
+      "commit": "47e4053112ee9e066a581d7aba16b82f85600b9f",
       "totals": {
-        "line": 28.76
+        "line": 0.0
       },
       "groups": {
         "Controllers": {
-          "line": 60.0
+          "line": 0.0
         },
         "Helpers": {
-          "line": 100.0
+          "line": 0.0
         },
         "Jobs": {
           "line": 0.0
@@ -1724,21 +1920,24 @@
           "line": 0.0
         },
         "Models": {
-          "line": 60.0
+          "line": 0.0
         },
         "Ungrouped": {
-          "line": 17.64
+          "line": 0.0
         }
       },
       "files": {
         "app/avo/resources/qbo_credential.rb": {
-          "line": 22.22
+          "line": 0.0
         },
         "app/avo/resources/qbo_mapping.rb": {
-          "line": 25.0
+          "line": 0.0
+        },
+        "app/avo/resources/sync_log.rb": {
+          "line": 0.0
         },
         "app/controllers/application_controller.rb": {
-          "line": 100.0
+          "line": 0.0
         },
         "app/controllers/avo/qbo_credentials_controller.rb": {
           "line": 0.0
@@ -1746,20 +1945,23 @@
         "app/controllers/avo/qbo_mappings_controller.rb": {
           "line": 0.0
         },
+        "app/controllers/avo/sync_logs_controller.rb": {
+          "line": 0.0
+        },
         "app/controllers/qbo/oauth_controller.rb": {
-          "line": 100.0
+          "line": 0.0
         },
         "app/controllers/webhooks/qbo_controller.rb": {
           "line": 0.0
         },
         "app/helpers/application_helper.rb": {
-          "line": 100.0
+          "line": 0.0
         },
         "app/helpers/qbo/oauth_helper.rb": {
-          "line": 100.0
+          "line": 0.0
         },
         "app/helpers/webhooks/qbo_helper.rb": {
-          "line": 100.0
+          "line": 0.0
         },
         "app/jobs/application_job.rb": {
           "line": 0.0
@@ -1768,19 +1970,121 @@
           "line": 0.0
         },
         "app/models/application_record.rb": {
-          "line": 100.0
+          "line": 0.0
         },
         "app/models/qbo_credential.rb": {
-          "line": 100.0
+          "line": 0.0
         },
         "app/models/qbo_mapping.rb": {
+          "line": 0.0
+        },
+        "app/models/sync_log.rb": {
           "line": 0.0
         },
         "app/policies/application_policy.rb": {
           "line": 0.0
         },
         "app/services/qbo/authentication_service.rb": {
-          "line": 71.42
+          "line": 0.0
+        }
+      }
+    },
+    {
+      "created_at": "2026-09-26T02:33:12Z",
+      "branch": "feature/db-schema",
+      "commit": "47e4053112ee9e066a581d7aba16b82f85600b9f",
+      "totals": {
+        "line": 0.0
+      },
+      "groups": {
+        "Controllers": {
+          "line": 0.0
+        },
+        "Helpers": {
+          "line": 0.0
+        },
+        "Jobs": {
+          "line": 0.0
+        },
+        "Mailers": {
+          "line": 0.0
+        },
+        "Models": {
+          "line": 0.0
+        },
+        "Ungrouped": {
+          "line": 0.0
+        }
+      },
+      "files": {
+        "app/avo/resources/qbo_credential.rb": {
+          "line": 0.0
+        },
+        "app/avo/resources/qbo_mapping.rb": {
+          "line": 0.0
+        },
+        "app/avo/resources/reconciliation.rb": {
+          "line": 0.0
+        },
+        "app/avo/resources/sync_log.rb": {
+          "line": 0.0
+        },
+        "app/controllers/application_controller.rb": {
+          "line": 0.0
+        },
+        "app/controllers/avo/qbo_credentials_controller.rb": {
+          "line": 0.0
+        },
+        "app/controllers/avo/qbo_mappings_controller.rb": {
+          "line": 0.0
+        },
+        "app/controllers/avo/reconciliations_controller.rb": {
+          "line": 0.0
+        },
+        "app/controllers/avo/sync_logs_controller.rb": {
+          "line": 0.0
+        },
+        "app/controllers/qbo/oauth_controller.rb": {
+          "line": 0.0
+        },
+        "app/controllers/webhooks/qbo_controller.rb": {
+          "line": 0.0
+        },
+        "app/helpers/application_helper.rb": {
+          "line": 0.0
+        },
+        "app/helpers/qbo/oauth_helper.rb": {
+          "line": 0.0
+        },
+        "app/helpers/webhooks/qbo_helper.rb": {
+          "line": 0.0
+        },
+        "app/jobs/application_job.rb": {
+          "line": 0.0
+        },
+        "app/mailers/application_mailer.rb": {
+          "line": 0.0
+        },
+        "app/models/application_record.rb": {
+          "line": 0.0
+        },
+        "app/models/qbo_credential.rb": {
+          "line": 0.0
+        },
+        "app/models/qbo_mapping.rb": {
+          "line": 0.0
+        },
+        "app/models/reconciliation.rb": {
+          "line": 0.0
+        },
+        "app/models/sync_log.rb": {
+          "line": 0.0
+        },
+        "app/policies/application_policy.rb": {
+          "line": 0.0
+        },
+        "app/services/qbo/authentication_service.rb": {
+          "line": 0.0
         }
       }
     }

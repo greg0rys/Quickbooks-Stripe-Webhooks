@@ -1,0 +1,39 @@
+erDiagram
+	direction TB
+	QboCredential {
+		text access_token
+		datetime access_token_expires_at
+		string realm_id
+		text refresh_token
+		datetime refresh_token_expires_at
+		integer status
+	}
+	QboMapping {
+		string checking_account_id
+		string clearing_account_id
+		string fee_account_id
+		string sales_account_id
+	}
+	Reconciliation {
+		string currency
+		integer fee_cents
+		integer gross_cents
+		integer net_cents
+		datetime payout_date
+		string qbo_deposit_id
+		string qbo_expense_id
+		integer status
+		string stripe_payout_id
+	}
+	SyncLog {
+		integer attempts
+		integer duration_ms
+		text error_message
+		string event_type
+		json payload
+		string qbo_entity_id
+		string qbo_entity_type
+		integer status
+		string stripe_event_id
+	}
+	QboCredential ||--}o QboMapping : ""
