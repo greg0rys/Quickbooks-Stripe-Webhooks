@@ -80,7 +80,7 @@ gem "groupdate", "~> 6.8"
 gem "pay", "~> 12.1"
 gem "pry", "~> 0.16.0"
 gem "pastel", "~> 0.8.0"
-gem "httparty", "~> 0.24.2"
+gem "httparty", "~> 0.24.3"
 
 gem "stripe", "~> 19.6"
 
