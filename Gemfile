@@ -67,7 +67,7 @@ end
 
 gem "rubocop-performance", "~> 1.27"
 
-gem "rubocop", "~> 1.91"
+gem "rubocop", "~> 1.92"
 gem "simplecov", "~> 1.3"
 gem "rswag", "~> 2.17"
 gem "bullet", "~> 8.2"
